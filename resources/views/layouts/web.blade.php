@@ -162,6 +162,15 @@
         .sidebar-links li a:hover {
             /* overflow: visible; */
         }
+        .her {
+            color: #fff;           /* Oq rang */
+            text-decoration: none; /* Tag chiziqni olib tashlash */
+        }
+
+        .her:hover {
+            color: #fff;           /* Hoverda ham oq bo‘lib qolsin */
+            text-decoration: none; /* Hoverda ham chiziq bo‘lmasin */
+        }
     </style>
 </head>
 
@@ -539,7 +548,8 @@
                         © 2020-2021 Все права защишены
                     </p>
                     <p>
-                        Сайт разработал: NDC
+
+                        Сайт разработал: <a class="her" href="https://ndc.uz/" target="_blank">NDC</a>
                     </p>
                 </div>
             </div>
