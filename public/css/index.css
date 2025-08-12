@@ -197,13 +197,13 @@
   justify-content: flex-end;
 }
 .header__menu-list li {
-  padding: 17px 0;
+  padding: 21px 0;
   position: relative;
   padding-left: 64px;
 }
 .header__menu-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 140.7%;
   color: var(--black);
   position: relative;
