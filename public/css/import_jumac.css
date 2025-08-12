@@ -1,0 +1,26 @@
+.jumac-description {
+  margin-bottom: 100px;
+}
+.jumac-description__title {
+  margin-bottom: 50px;
+}
+.jumac-description__inner p {
+  font-size: 22px;
+  line-height: 208.8%;
+  letter-spacing: 0.03em;
+}
+.jumac-description__inner p:not(:first-child) {
+  text-indent: 10px;
+}
+@media (max-width: 500px) {
+  .jumac-description {
+    margin-bottom: 70px;
+ }
+  .jumac-description__title {
+    margin-bottom: 30px;
+ }
+  .jumac-description__inner p {
+    font-size: 19px;
+    line-height: 180%;
+ }
+}

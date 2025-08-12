@@ -1,0 +1,36 @@
+.services-cards {
+  margin-bottom: 105px;
+}
+.services-cards__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+}
+.services-cards__card {
+  flex: 0 1 calc(100% / 4 - 20px);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: var(--black);
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  .services-cards {
+    margin-bottom: 40px;
+ }
+  .services-cards__card {
+    flex: 0 1 calc(100% / 3 - 20px);
+ }
+}
+@media (max-width: 768px) {
+  .services-cards {
+    margin-bottom: 0px;
+ }
+  .services-cards__card {
+    flex: 0 1 calc(100% / 2 - 20px);
+ }
+}
+@media (max-width: 500px) {
+  .services-cards__card {
+    flex: 0 1 100%;
+ }
+}

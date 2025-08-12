@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('./../public/fonts/Gilroy-Light.woff2') format('woff2'), url('./../public/fonts/Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./../public/fonts/Gilroy-Regular.woff2') format('woff2'), url('./../public/fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./../public/fonts/Gilroy-Medium.woff2') format('woff2'), url('./../public/fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url('./../public/fonts/Gilroy-Semibold.woff2') format('woff2'), url('./../public/fonts/Gilroy-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./../public/fonts/Gilroy-Bold.woff2') format('woff2'), url('./../public/fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy-Extrabold';
+  src: url('./../public/fonts/Gilroy-Extrabold.woff2') format('woff2'), url('./../public/fonts/Gilroy-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans-Bold';
+  src: url('./../public/fonts/DMSans-Bold.woff2') format('woff2'), url('./../public/fonts/DMSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url('./../public/fonts/SFProDisplay-Regular.woff2') format('woff2'), url('./../public/fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  src: url('./../public/fonts/SFProDisplay-Semibold.woff2') format('woff2'), url('./../public/fonts/SFProDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('./../public/fonts/Lato-Regular.woff2') format('woff2'), url('./../public/fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('./../public/fonts/OpenSans-SemiBold.woff2') format('woff2'), url('./../public/fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.gy-light {
+  font-family: 'Gilroy-Light';
+  font-weight: 300;
+}
+.gy-regular {
+  font-family: 'Gilroy-Regular';
+  font-weight: normal;
+}
+.gy-medium {
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+}
+.gy-semibold {
+  font-family: 'Gilroy-Semibold';
+  font-weight: 600;
+}
+.gy-bold {
+  font-family: 'Gilroy-Bold';
+  font-weight: bold;
+}
+.gy-extrabold {
+  font-family: 'Gilroy-Extrabold';
+  font-weight: 800;
+}
+.dms-bold {
+  font-family: 'DMSans-Bold';
+  font-weight: bold;
+}
+.sfp-regular {
+  font-family: 'SFProDisplay-Regular';
+  font-weight: normal;
+}
+.sfp-semibold {
+  font-family: 'SFProDisplay-Semibold';
+  font-weight: 600;
+}
+.lato-regular {
+  font-family: 'Lato-Regular';
+  font-weight: normal;
+}
+.os-semibold {
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+}
